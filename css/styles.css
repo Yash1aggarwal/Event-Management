@@ -1,0 +1,120 @@
+
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    text-align: center;
+}
+
+form {
+    max-width: 350px;
+    padding: 60px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: auto; 
+}
+
+/* Style form elements */
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+    margin-top: 10px;
+}
+
+p{
+    text-align: center;
+}
+
+p a{
+    color: red;
+    text-decoration: none;
+}
+/* signup.css */
+.signup-form {
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 6rem auto
+}
+
+.signup-form h2 {
+    margin-bottom: 15px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+}
+
+.button4{
+    display: flex;
+    justify-content: space-between;
+}
+.but{
+    background-color: red;
+    font-size: 0.9rem;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.but:hover{
+    background-color: #555;
+}

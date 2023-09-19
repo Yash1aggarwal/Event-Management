@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.login-form {
+    max-width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form h2{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 7.3rem;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    font-size: 1rem;
+}

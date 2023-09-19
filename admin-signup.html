@@ -1,0 +1,33 @@
+<!-- admin-signup.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Signup</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Signup</h1>
+    </header>
+    <main>
+        <div class="signup-form">
+            <h2>Sign up as an Admin</h2>
+            <form id="admin-signup-form">
+                <input type="text" id="username" placeholder="Name">
+                <input type="email" id="email" placeholder="Email">
+                <input type="password" id="password" placeholder="Password">
+                <select id="user-type">
+                    <option value="user">Catering</option>
+                    <option value="vendor">Florist</option>
+                    <option value="admin">Decoration</option>
+                    <option value="admin">Lighting</option>
+                </select>
+                <button type="submit">Sign up</button>
+            </form>
+        </div>
+    </main>
+    <script src="admin-signup.js"></script> 
+</body>
+</html>

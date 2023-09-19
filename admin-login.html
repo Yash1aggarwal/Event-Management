@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+        }
+
+        .login-container h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 94%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .login-container button {
+            background-color: red;
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .login-container button.cancel {
+            background-color: #ccc;
+        }
+
+        .login-container button:hover {
+            background-color: rgb(128, 58, 58);
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Event Management System</h1>
+        <form id="login-form">
+            <input type="text" id="userId" placeholder="User ID" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="button" class="cancel">Cancel</button>
+            <button type="submit" class="login">Login</button>
+        </form>
+    </div>
+    <script>
+        const loginForm = document.getElementById('login-form');
+        const userIdInput = document.getElementById('userId');
+        const passwordInput = document.getElementById('password');
+        const cancelButton = document.querySelector('.cancel');
+
+        loginForm.addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the form from submitting
+            const userId = userIdInput.value;
+            const password = passwordInput.value;
+
+            if (userId && password) {
+                alert('Login successful!');
+            } else {
+                alert('Please fill in both fields.');
+            }
+        });
+
+        cancelButton.addEventListener('click', function() {
+            // Clear input fields when Cancel button is clicked
+            userIdInput.value = '';
+            passwordInput.value = '';
+        });
+    </script>
+</body>
+</html>

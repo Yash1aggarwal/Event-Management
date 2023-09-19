@@ -1,0 +1,77 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+header{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.but{
+    background-color: red;
+    font-size: 0.9rem;
+    color: white;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.but:hover{
+    background-color:rgb(128, 58, 58);
+}
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form h2{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+input[type="text"],
+input[type="password"]{
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+button:hover {
+    background-color:rgb(128, 58, 58);
+}
